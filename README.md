@@ -12,9 +12,9 @@ The private education market in South Korea is intensely competitive, with stude
 
 LLM English Teacher bridges this gap by:
 
-## Creating New English Questions: Utilizing LLM to craft questions that break the mold of conventional exam preparation.
+- Creating New English Questions: Utilizing LLM to craft questions that break the mold of conventional exam preparation.
 
-Personalized Feedback: Offering individualized guidance based on each student's performance and learning history.
+- Personalized Feedback: Offering individualized guidance based on each student's performance and learning history.
 
 ### How It Works
 
@@ -33,6 +33,8 @@ While there are existing solutions like LXPER, 너른터, and 프랙티카, LLM 
 - Offering the freshest content directly aligned with current exam formats.
 - Providing a seamless and intuitive user interface.
 - Ensuring accessibility to the latest study materials without the limitations of traditional publishing.
+
+---
 
 ## SWOT Analysis
 
