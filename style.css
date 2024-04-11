@@ -17,6 +17,16 @@ main {
   padding: 0 400px;
 }
 
+.nav.scrolled {
+  background-color: #ffffff; /* Or any color you want when scrolled */
+  transition: background-color 2s; /* Smooth transition for the background change */
+}
+
+/* Add padding to the body to compensate for the fixed nav */
+body.scrolled-padding {
+  padding-top: 60px; /* Adjust based on the height of your nav */
+}
+
 nav ul {
   list-style-type: none;
   padding: 0;

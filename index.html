@@ -11,7 +11,7 @@
       <h1>ET</h1>
       <p>수능 영어 문제 제작 서비스 with AI Based Product Building</p>
     </header>
-    <nav>
+    <nav class="nav">
       <ul>
         <li><a href="#problem">Problem Statement</a></li>
         <li><a href="#solution">Our Solution</a></li>
@@ -23,6 +23,13 @@
       </ul>
     </nav>
     <main>
+      <section>
+        <img
+          src="./imgs/DALL·E Futuristic Classroom.webp"
+          alt="main img"
+          width="100%"
+        />
+      </section>
       <section id="problem">
         <h2>Problem Statement</h2>
         <p>
@@ -111,6 +118,25 @@
           every day, and achieve the scores you dream of.
         </p>
       </section>
+      <script>
+        function checkScroll() {
+          const nav = document.querySelector(".nav");
+          const body = document.querySelector("body");
+
+          // Set the number of pixels you want to trigger the style change
+          var scrollCheck = 100;
+
+          if (window.pageYOffset > scrollCheck) {
+            nav.classList.add("scrolled");
+            body.classList.add("scrolled-padding");
+          } else {
+            nav.classList.remove("scrolled");
+            body.classList.remove("scrolled-padding");
+          }
+        }
+
+        window.addEventListener("scroll", checkScroll);
+      </script>
     </main>
     <footer>
       <p>&copy; 2024 LLM English Teacher. All rights reserved.</p>
